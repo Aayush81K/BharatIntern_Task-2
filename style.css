@@ -1,0 +1,302 @@
+
+/*header*/
+
+.box1 {
+    height: 680px;
+    width: auto;
+    background-image: url(netflix1image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10px solid black;
+}
+.logo {
+    height: 20px;
+    width: 30px;   
+    margin-top: 10px;
+    margin-left: 10px; 
+    border-radius: 5px;
+}
+#sign-in {
+    height: 200px;
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+}
+.sign-in {
+    height: 65px;
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+button {
+    height: 55px;
+    width: 110px;
+    background-color: rgb(255, 1, 1);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    justify-content: end;
+    
+}
+button:hover {
+    background-color: rgb(255, 1, 1, 0.8);
+}
+
+.write {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family:  "Gill Sans", sans-serif;
+    
+}
+.write-up {
+    font-size: 45px;
+    font-weight: 880;
+}
+.write-up2 {
+    font-size: 27px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 500px;
+    margin-left: 450px;
+    padding: 5px;
+}
+#sea {
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+
+}
+#search {
+    background-color: rgb(255, 1, 1);
+    width: 500px;
+    height: 62px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+#sea {
+    background-color: rgb(49, 46, 46);
+    color: white;
+
+}
+#sea:hover {
+    border: 3px solid rgb(255, 1, 1, 0.8);
+}
+#search:hover {
+    background-color: rgb(255, 1, 1, 0.8);
+}
+
+/*box2*/
+
+
+.box2 {
+    height: 680px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-family:  "Gill Sans", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.line1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 10px;
+}
+.line2 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+
+.tv {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    border: 8px solid rgb(83, 82, 82);
+    animation-name: moviesanime;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    background-size: cover;
+}
+
+@keyframes moviesanime {
+    0% {
+        background-image: url(movie1.jpg);
+    }
+    33% {
+        background-image: url(movie2.jpg);
+    }
+    66% {
+        background-image: url(movie3.jpg);
+    }
+    100% {
+        background-image: url(movie4.jpg);
+    }
+}
+
+
+/*box3*/
+
+.box3 {
+    height: 680px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-family:  "Gill Sans", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.line11 {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 10px;
+}
+.line22 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+.download {
+    height: 500px;
+    width: 500px;
+    background-image: url(image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*box4*/
+
+.box4 {
+    height: 680px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-family:  "Gill Sans", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.child {
+    height: 500px;
+    width: 600px;
+    background-image: url(image6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.line111 {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 10px;
+}
+.line222 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+
+/*footer*/
+footer {
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+UL {
+    margin-top: 10px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddd;
+}
+.foot-panel3 {
+    background-color: black;
+    border: 0.55px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.logo {
+    height: 50px;
+    width: 200px;
+    background-image: url(netflixlogo.jpg);
+    background-size: cover;
+    
+}
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright {
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
